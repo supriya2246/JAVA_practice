@@ -1,1 +1,1 @@
-# SupriyaMondithoka
+# JavaProject
