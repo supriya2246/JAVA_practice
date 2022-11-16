@@ -18,7 +18,7 @@ class CGB extends Supriya_Bank{
 	return 50;}
 }
 
-class BOI extends Supriya_Bank{
+class JOHN extends Supriya_Bank{
 	int getInterest(){
 	return 55;}
 	}	
@@ -31,12 +31,12 @@ class Test_Bank{
 		System.out.println("SBI rate of interest:"+s.getInterest());
 		CGB c=new CGB();
 		System.out.println("CGB rate of interest:"+c.getInterest());
-		BOI b=new BOI();
-		System.out.println("BOI rate of interest:"+b.getInterest());
+		JOHN j=new JOHN();
+		System.out.println("JOHN rate of interest:"+j.getInterest());
 	}
 }/*IDFC rate of interest:30
 SBI rate of interest:45
 CGB rate of interest:50
-BOI rate of interest:55*/
+JOHN rate of interest:55*/
 
  
